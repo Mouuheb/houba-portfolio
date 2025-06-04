@@ -48,6 +48,7 @@ const data ={
         exp: 'Experience',
         abt: 'About',
         prj: 'Projects',
+        certif: 'Certification',
 
         prjList:[
             {
