@@ -4,24 +4,6 @@ const data ={
     img:'',
     email:'mouhebhatiwch101@gmail.com',
     tel:'+21652377213',
-    contact:[
-        {
-            name:'Linkedin',
-            icon:'',
-        },
-        {
-            name:'Gmail',
-            icon:'',
-        },
-        {
-            name:'X',
-            icon:'',
-        },
-        {
-            name:'instagram',
-            icon:'',
-        },
-    ],
     skill:[
         {
             name:'Python',
