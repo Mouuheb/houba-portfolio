@@ -1,5 +1,6 @@
 import React from 'react'
 import data from '../data/data'
+import { MdOutlineFileDownload } from "react-icons/md";
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
         <header>
             <div>
                 <a href='#'>
-                    <div>
+                    <div className='logo-cnt'>
                         <div>
                             <img src={data.logo}/>
                         </div>
@@ -15,17 +16,23 @@ const Header = () => {
                     </div>
                 </a>
             </div>
-            <div>
+            <div className='link-cnt'>
                 <a href='#'>{data.eng.about}</a>
                 <a href='#'>{data.eng.skill}</a>
                 <a href='#'>{data.eng.project}</a>
                 <a href='#'>{data.eng.contact}</a>
             </div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <a href='#'>{data.eng.resume}</a>
+            <div className='lg-bt-cnt'>
+                <div className='lg'>
+                    <img src='fr.jfif' />
+                </div>
+                <div className='lg'>
+                    <img src='en.jfif' />
+                </div>
+                <div className='lg'>
+                    <img src='tn.jfif' />
+                </div>
+                <a href='#' className='btn'>{data.eng.resume} <MdOutlineFileDownload style={{ fontSize: '.91rem' }}  /></a>
             </div>
         </header>
     </div>

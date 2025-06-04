@@ -1,4 +1,82 @@
-#root {
+body{
+  background-color: var(--p3);
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  background-color: var(--p3);
+  /* position: ; */
+  display: flex;
+  flex-direction: row;
+  z-index: 999;
+  margin: 0 5%;
+  width: 90%;
+  height: 11vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo-cnt{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4vw;
+}
+
+header .logo-cnt h3{
+  color: var(--p1);
+}
+
+header .logo-cnt img{
+  width: 85%;
+}
+
+header .link-cnt{
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+header .link-cnt a{
+  color: var(--p1);
+}
+
+header .lg-bt-cnt{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .5rem;
+}
+
+header .lg-bt-cnt .btn{
+  background-color: var(--p1);
+  color: var(--p3);
+  padding: 0.6rem;
+  border-radius: .5rem;
+}
+
+header .lg-bt-cnt .lg{
+  background-color: bisque;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 5rem;
+  overflow: hidden;
+}
+header .lg-bt-cnt .lg img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +117,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
