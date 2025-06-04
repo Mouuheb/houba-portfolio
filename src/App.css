@@ -106,7 +106,6 @@ header .lg-bt-cnt .lg img{
   color: transparent;
   -webkit-text-stroke: 1px black;
   text-stroke: 1px black;
-  /* font-size: 3rem; */
   font-weight: bold;
 }
 
@@ -146,6 +145,41 @@ header .lg-bt-cnt .lg img{
 
 }
 
+.skill{
+  width: 90%;
+  margin: 5rem 5%;
+}
+
+.skill h1{
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.skill span{
+  font-weight: lighter;
+}
+
+.skill .itms{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  margin-left: 4%;
+  gap: 4%;
+}
+.skill .itms div{
+  text-align: center;
+  width: 16%;
+  min-height:20vh;
+  border: solid var(--p1) 2px;
+  border-radius: .2rem;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.skill h6{
+  font-size: 1rem;
+}
 
 
 

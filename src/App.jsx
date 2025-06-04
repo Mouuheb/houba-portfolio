@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Skill from './pages/Skill'
 import About from './pages/About'
 import Project from './pages/Project'
+import Certification from './pages/Certification'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Home/>
       <Skill/>
+      <Certification/>
       <About/>
       <Project/>
     </div>
