@@ -264,6 +264,57 @@ header .lg-bt-cnt .lg img{
   font-size: 1.5rem;
 }
 
+.project {
+  padding: 5rem 0;
+  width: 90%;
+  margin: 0 5%;
+}
+
+.project h1{
+  text-align: center;
+}
+.project span{
+  font-weight: lighter;
+}
+
+.project .projects-cnt{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.project .projects-cnt .projects-itm{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+.project .projects-cnt .projects-itm .img-cnt{
+  width: 40%;
+  /* height: 20rem; */
+  overflow: hidden;
+  border-radius: 2.5rem;
+  background-color: var(--p3);
+}
+.project .projects-cnt .projects-itm .img-cnt img{
+  width: 100%;
+  height: fit-content ;
+  
+}
+.project .projects-cnt .projects-itm .txt{
+  width: 45%;
+}
+.project .projects-cnt .projects-itm .txt h1{
+  text-align: left;
+}
+
+.project .projects-cnt .projects-itm .txt p{
+  color: var(--p2);
+}
+
+.project .projects-cnt .projects-itm .txt a{
+  color: var(--p3);
+}
 
 
 /* #root {
