@@ -23,7 +23,7 @@ const Header = () => {
                 <a href='#'>{data.eng.contact}</a>
             </div>
             <div className='lg-bt-cnt'>
-                <div className='lg'>
+                {/* <div className='lg'>
                     <img src='fr.jfif' />
                 </div>
                 <div className='lg'>
@@ -31,7 +31,7 @@ const Header = () => {
                 </div>
                 <div className='lg'>
                     <img src='tn.jfif' />
-                </div>
+                </div> */}
                 <a href='#' className='btn'>{data.eng.resume} <MdOutlineFileDownload style={{ fontSize: '.91rem' }}  /></a>
             </div>
         </header>

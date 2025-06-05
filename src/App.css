@@ -334,10 +334,12 @@ header .lg-bt-cnt .lg img{
 .contact .inp input{
   width: 80%;
   height: 2rem;
+  border: solid 1.6px var(--p1);
 }
 .contact .inp textarea{
   width: 80%;
   height: 6rem;
+  border: solid 1.6px var(--p1);
 }
 
 .contact .inp .elm{
@@ -377,6 +379,11 @@ header .lg-bt-cnt .lg img{
   text-stroke: 1px var(--p1);
   font-weight: bold;
 
+}
+
+.footer{
+  padding: 1.2rem 0;
+  text-align: center;
 }
 
 
