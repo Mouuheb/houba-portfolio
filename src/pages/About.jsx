@@ -1,14 +1,17 @@
 import React from 'react'
+import data from '../data/data'
 
 const About = () => {
   return (
-    <div>
+    <div className='about'>
         <div>
-            <img/>
+            <img src='about.svg'/>
         </div>
-        <div>
-            <h1></h1>
-            <p></p>
+        <div className='txt'>
+            <h1><span>{data.eng.my}</span> {data.eng.abt}</h1>
+            <p>
+              {data.eng.home.prf}
+            </p>
         </div>
     </div>
   )

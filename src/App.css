@@ -243,6 +243,26 @@ header .lg-bt-cnt .lg img{
   color: var(--p3);
 }
 
+.about{
+  width: 90%;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.about span{
+  font-weight: lighter;
+}
+
+.about .txt{
+  width: 40%;
+  margin-left: 10%;
+}
+
+.about p{
+  color: var(--p2);
+  font-size: 1.5rem;
+}
 
 
 
