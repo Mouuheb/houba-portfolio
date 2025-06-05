@@ -46,6 +46,15 @@ header .link-cnt{
 header .link-cnt a{
   color: var(--p1);
   font-weight: bold;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 5px;
+}
+
+header .link-cnt a:hover{
+  color: var(--p1);
+  font-weight: bold;
+  border-bottom: 2px solid var(--p1);
+  padding-bottom: 5px;
 }
 
 header .lg-bt-cnt{
@@ -61,6 +70,14 @@ header .lg-bt-cnt .btn{
   padding: 0.6rem;
   border-radius: .5rem;
   font-weight: bold;
+  border: solid transparent 2px;
+}
+
+header .lg-bt-cnt .btn:hover{
+  background-color: var(--p3);
+  color: var(--p1);
+  border: solid var(--p1) 2px;
+  
 }
 
 header .lg-bt-cnt .lg{
@@ -139,12 +156,16 @@ header .lg-bt-cnt .lg img{
 }
 
 .home .sosial-cnt a{
-
   border: solid var(--p1) 2px;
   border-radius: .5rem;
   padding: .7rem;
-  
-
+}
+.home .sosial-cnt a:hover{
+  border: solid var(--p1) 2px;
+  border-radius: .5rem;
+  padding: .7rem;
+  background-color: var(--p1);
+  color: var(--p3);
 }
 
 .skill{
@@ -177,6 +198,18 @@ header .lg-bt-cnt .lg img{
   border-radius: .2rem;
   align-items: center;
   padding-top: 2rem;
+}
+
+.skill .itms div:hover{
+  text-align: center;
+  width: 16%;
+  min-height:20vh;
+  border: solid var(--p3) 2px;
+  border-radius: .2rem;
+  align-items: center;
+  padding-top: 2rem;
+  color: var(--p3);
+  background-color: var(--p1);
 }
 
 .skill h6{
@@ -241,6 +274,11 @@ header .lg-bt-cnt .lg img{
 
 .certif a{
   color: var(--p3);
+}
+
+.certif h3:hover{
+  border-bottom: 2px solid var(--p3);
+    padding-bottom: 5px;
 }
 
 .about{
@@ -356,10 +394,29 @@ header .lg-bt-cnt .lg img{
   border-radius: .3rem;
   background-color: var(--p1);
   font-weight: bold;
+  border: solid var(--p1) 2px;
+}
+
+.contact .inp .elm button:hover{
+  color: var(--p1);
+  padding: .8rem;
+  border: none;
+  border-radius: .3rem;
+  background-color: var(--p3);
+  font-weight: bold;
+  border: solid var(--p1) 2px;
 }
 
 .contact .inp .elm a{
   border: solid 2px var(--p1);
+  border-radius: .3rem;
+  padding: .3rem;
+}
+
+.contact .inp .elm a:hover{
+  border: solid 2px var(--p1);
+  background-color: var(--p1);
+  color: var(--p3);
   border-radius: .3rem;
   padding: .3rem;
 }
@@ -385,6 +442,7 @@ header .lg-bt-cnt .lg img{
   padding: 1.2rem 0;
   text-align: center;
 }
+
 
 
 /* #root {
