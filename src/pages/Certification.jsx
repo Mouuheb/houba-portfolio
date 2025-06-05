@@ -2,6 +2,7 @@ import React from 'react'
 import data from '../data/data'
 import { CiShare1 } from "react-icons/ci";
 
+
 const Certification = () => {
   return (
     <div className='black-cnt'>
