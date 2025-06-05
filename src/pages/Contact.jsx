@@ -2,18 +2,64 @@ import React from 'react'
 import { FiInstagram } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: ''
+    });
+    const handleChange = (e) => {
+        setFormData(prev => ({
+            ...prev,
+            [e.target.name]: e.target.value
+        }));
+    };
+
+    const sendEmail = async () => {
+        console.log('jj')
+        try {
+            const result = await emailjs.send(
+                'service_8k3mfpt',
+                'template_3r1ihj4',
+                {
+                    user_name: formData.name,
+                    user_email: formData.email,
+                    message: formData.message
+                },
+                'VCl3M0UVEM0O9mg9Q'
+            );
+            console.log('Success:', result.text);
+            alert('Email sent!');
+        } catch (error) {
+            console.error('Error:', error);
+            alert('Failed to send email.');
+        }
+    };
+
+
     return (
         <div className='contact' id='contact'>
             <div className='inp'  >
-                <input type='text' placeholder='Your name' />
-                <input type='email' placeholder='Email' />
-                <textarea placeholder='How can I help ?'>
+                <input type='text' placeholder='Your name' name="name"
+
+        value={formData.name}
+        onChange={handleChange} />
+                <input type='email' placeholder='Email' name="email"
+        value={formData.email}
+        onChange={handleChange} />
+                <textarea placeholder='How can I help ?' name="message"
+        value={formData.message}
+        onChange={handleChange}>
+
 
                 </textarea>
+
+
                 <div className='elm'>
-                    <button>
+                    <button onClick={sendEmail}>
                         Get in touch
                     </button>
                     <a>
