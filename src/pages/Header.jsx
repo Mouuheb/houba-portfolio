@@ -4,7 +4,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 
 const Header = () => {
   return (
-    <div>
+    <div className='desk'>
         <header>
             <div>
                 <a href='#a'>

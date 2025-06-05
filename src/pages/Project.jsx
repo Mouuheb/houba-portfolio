@@ -25,7 +25,7 @@ const Project = () => {
                 </div>
             </div>
 
-            <div className='projects-itm'>
+            <div className='projects-itm' id='inv'>
                 
                 <div className='txt'>
                     <h1>01</h1>
@@ -60,7 +60,7 @@ const Project = () => {
                 </div>
             </div>
 
-            <div className='projects-itm'>
+            <div className='projects-itm' id='inv'>
                 
                 <div className='txt'>
                     <h1>01</h1>

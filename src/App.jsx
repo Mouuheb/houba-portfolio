@@ -8,12 +8,14 @@ import Project from './pages/Project'
 import Certification from './pages/Certification'
 import Contact from './pages/Contact'
 import Footer from './pages/Footer'
+import Headermob from './pages/Headermob'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
+      <Headermob/>
       <Header/>
       <Home/>
       <Skill/>
