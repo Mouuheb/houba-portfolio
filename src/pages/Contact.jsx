@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
     return (
-        <div className='contact'>
+        <div className='contact' id='contact'>
             <div className='inp'  >
                 <input type='text' placeholder='Your name' />
                 <input type='email' placeholder='Email' />

@@ -4,7 +4,7 @@ import { CiShare1 } from "react-icons/ci";
 
 const Project = () => {
   return (
-    <div className='black-cnt'>
+    <div className='black-cnt' id='project'>
         <div className='project'>
         <h1><span>{data.eng.my}</span> {data.eng.project}</h1>
         <div className='projects-cnt'>

@@ -7,7 +7,7 @@ const Header = () => {
     <div>
         <header>
             <div>
-                <a href='#'>
+                <a href='#a'>
                     <div className='logo-cnt'>
                         <div>
                             <img src={data.logo}/>
@@ -17,10 +17,11 @@ const Header = () => {
                 </a>
             </div>
             <div className='link-cnt'>
-                <a href='#'>{data.eng.about}</a>
-                <a href='#'>{data.eng.skill}</a>
-                <a href='#'>{data.eng.project}</a>
-                <a href='#'>{data.eng.contact}</a>
+                <a href='#about'>{data.eng.about}</a>
+                <a href='#skill'>{data.eng.skill}</a>
+                <a href='#certif'>Certification</a>
+                <a href='#project'>{data.eng.project}</a>
+                <a href='#contact'>{data.eng.contact}</a>
             </div>
             <div className='lg-bt-cnt'>
                 {/* <div className='lg'>

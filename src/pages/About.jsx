@@ -3,7 +3,7 @@ import data from '../data/data'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
         <div>
             <img src='about.svg'/>
         </div>

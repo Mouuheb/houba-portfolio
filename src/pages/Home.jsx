@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' id='a'>
         <div className='text-cnt'>
             <div></div>
             <h1>{data.eng.home.g}<span className='bold'> {data.eng.home.name}</span></h1>

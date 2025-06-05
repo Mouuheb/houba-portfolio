@@ -5,7 +5,7 @@ import { CiShare1 } from "react-icons/ci";
 
 const Certification = () => {
   return (
-    <div className='black-cnt'>
+    <div className='black-cnt' id='certif'>
       <div className='certif'>
         <h1><span>{data.eng.my} </span>{data.eng.certif}</h1>
 

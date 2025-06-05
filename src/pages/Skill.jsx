@@ -14,7 +14,7 @@ import { SiFlutter } from "react-icons/si";
 
 const Skill = () => {
   return (
-    <div className='skill'>
+    <div className='skill' id='skill'>
         <h1><span>{data.eng.my} </span>{data.eng.skill}</h1>
         <div className='itms'>
             <div>
