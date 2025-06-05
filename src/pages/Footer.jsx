@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='black-cnt'>
         <p className='footer'>
-            @mouheb htiwch 2025
+            © 2025 Mouuheb. All rights reserved.
         </p>
     </div>
   )

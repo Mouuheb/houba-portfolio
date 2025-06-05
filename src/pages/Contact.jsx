@@ -62,15 +62,15 @@ const Contact = () => {
                     <button onClick={sendEmail}>
                         Get in touch
                     </button>
-                    <a>
+                    <a href='https://www.linkedin.com/in/mouheb-htiwch-b61371224/'>
                         <FaLinkedinIn style={{ fontSize: '1.5rem' }} />
                     </a>
 
-                    <a>
+                    <a href='https://x.com/hatiwch'>
                         <FaXTwitter style={{ fontSize: '1.5rem' }} />
                     </a>
 
-                    <a>
+                    <a href='https://www.instagram.com/houba.exe/'>
                         <FiInstagram style={{ fontSize: '1.5rem' }} />
                     </a>
                 </div>
