@@ -33,7 +33,7 @@ const Header = () => {
                 <div className='lg'>
                     <img src='tn.jfif' />
                 </div> */}
-                <a href='mouheb_htiwch_cv.pdf' download className='btn'>{data.eng.resume} <MdOutlineFileDownload style={{ fontSize: '.91rem' }}  /></a>
+                <a href='mouheb_htiwch_cv.pdf' download className='btn'>ll{data.eng.resume} <MdOutlineFileDownload style={{ fontSize: '.91rem' }}  /></a>
             </div>
         </header>
     </div>
