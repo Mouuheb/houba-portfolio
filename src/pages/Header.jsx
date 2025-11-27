@@ -24,6 +24,7 @@ const Header = () => {
                 <a href='#contact'>{data.eng.contact}</a>
             </div>
             <div className='lg-bt-cnt'>
+                <img src='fr.jfif' />
                 {/* <div className='lg'>
                     <img src='fr.jfif' />
                 </div>
