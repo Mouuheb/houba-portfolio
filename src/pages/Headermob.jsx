@@ -18,7 +18,7 @@ const Headermob = () => {
                 </a>
             </div>
             <div className='lg-bt-cnt'>
-                <a href='#' className='btn'>{data.eng.resume} <MdOutlineFileDownload style={{ fontSize: '.91rem' }}  /></a>
+                <a href='/houba-portfolio/mouheb_htiwch_cv.pdf' download className='btn'>{data.eng.resume} <MdOutlineFileDownload style={{ fontSize: '.91rem' }}  /></a>
             </div>
         </header>
     </div>

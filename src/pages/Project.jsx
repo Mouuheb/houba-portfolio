@@ -10,7 +10,7 @@ const Project = () => {
         <div className='projects-cnt'>
             <div className='projects-itm'>
                 <div className='img-cnt'>
-                    <img src='p1.svg'/>
+                    <img src='/houba-portfolio/p1.svg'/>
                 </div>
                 <div className='txt'>
                     <h1>01</h1>
@@ -39,13 +39,13 @@ const Project = () => {
                     </a>
                 </div>
                 <div className='img-cnt'>
-                    <img src='p2.svg'/>
+                    <img src='/houba-portfolio/p2.svg'/>
                 </div>
             </div>
 
             <div className='projects-itm'>
                 <div className='img-cnt'>
-                    <img src='p3.svg'/>
+                    <img src='/houba-portfolio/p3.svg'/>
                 </div>
                 <div className='txt'>
                     <h1>03</h1>
@@ -74,7 +74,7 @@ const Project = () => {
                     </a>
                 </div>
                 <div className='img-cnt'>
-                    <img src='p4.svg'/>
+                    <img src='/houba-portfolio/p4.svg'/>
                 </div>
             </div>
         </div>

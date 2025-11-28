@@ -34,7 +34,7 @@ const Home = () => {
         </div>
 
         <div className='img-cnt'>
-            <img src='home.svg'/>
+            <img src='/houba-portfolio/home.svg'/>
         </div>
     </div>
   )

@@ -1,6 +1,6 @@
 const data ={
     name:'personal',
-    logo:'logo.svg',
+    logo:'/houba-portfolio/logo.svg',
     img:'',
     email:'mouhebhatiwch101@gmail.com',
     tel:'+21652377213',

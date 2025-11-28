@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='about' id='about'>
         <div>
-            <img src='about.svg'/>
+            <img src='/houba-portfolio/about.svg'/>
         </div>
         <div className='txt'>
             <h1><span>{data.eng.my}</span> {data.eng.abt}</h1>

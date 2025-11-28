@@ -37,8 +37,8 @@ const Skill = () => {
                 <SiMysql style={{ fontSize: '5rem' }} />
                 <h6>SQL</h6>
             </div>
-          </div>
-          <div className='itms'>
+        </div>
+        <div className='itms'>
             <div>
                 <BsGit style={{ fontSize: '5rem' }} />
                 <h6>Git</h6>
@@ -63,11 +63,52 @@ const Skill = () => {
                 <SiFlutter style={{ fontSize: '5rem' }} />
                 <h6>Flutter</h6>
             </div>
-          </div>
-          {/* <div className='itms'>
+        </div>
+        {/* mobile */}
+        <div className='itms-mb'>
+            <div>
+                <FaHtml5 style={{ fontSize: '5rem' }} />
+                <h6>Html</h6>
+            </div>
+            <div>
+                <FaCss3 style={{ fontSize: '5rem' }} />
+                <h6>Css</h6>
+            </div>
+            <div>
+                <IoLogoJavascript style={{ fontSize: '5rem' }} />
+                <h6>JavaScript</h6>
+            </div>
+            <div>
+                <FaPython style={{ fontSize: '5rem' }}/>
+                <h6>Python</h6>
+            </div>
+            <div>
+                <SiMysql style={{ fontSize: '5rem' }} />
+                <h6>SQL</h6>
+            </div>
+        
+            <div>
+                <BsGit style={{ fontSize: '5rem' }} />
+                <h6>Git</h6>
+            </div>
+            <div>
+                <FaReact style={{ fontSize: '5rem' }} />
+                <h6>React.js</h6>
+            </div>
+            <div>
+                < SiDjango style={{ fontSize: '5rem' }} />
+                <h6>Django</h6>
+            </div>
             
-            
-        </div> */}
+            <div>
+                <FaFigma style={{ fontSize: '5rem' }} />
+                <h6>Figma</h6>
+            </div>
+            <div>
+                <SiFlutter style={{ fontSize: '5rem' }} />
+                <h6>Flutter</h6>
+            </div>
+        </div>
     </div>
   )
 }
